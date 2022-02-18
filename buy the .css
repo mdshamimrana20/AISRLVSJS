@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+button.loginnn {
+    float: right;
+    padding: 8px 19px;
+    background: #27c527;
+    border-radius: 6px;
+    border: none;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menus {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: 54px;
+}
+
+.logotop {
+    margin-top: 41px;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 31px;
+    color: #005200;
+}
+
+ul.topmenuu {
+    list-style: none;
+}
+
+li.select {
+    float: left;
+    margin-right: 49px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: arial;
+    border-radius: 5px;
+    padding: 7px 12px;
+    color: black;
+    align-items: center;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+.contactnumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #27c527;
+    font-family: system-ui;
+    margin-right: -59px;
+}
+li.select:hover , li.select.active {
+    background: #27c527;
+    color: white;
+}
+
+li.select.active:hover {
+    background: transparent;
+    color: black;
+}
+span.m {
+    margin-left: -10px;
+    font-size: 35px;
+    color: #27c527;
+}
+section.topmenn {
+    background: linear-gradient(45deg, #67ff67, #67ffea);
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+
+.contener {
+    margin: auto;
+    width: 80%;
+}
+i.fa.fa-phone {
+    margin-right: 7px;
+}
+
+
+
+i.fa.fa-rocket {
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    border-radius: 50%;
+    background: #cacaca94;
+    align-items: center;
+    text-align: center;
+}
+
+span.profilename {
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+h2.cont {
+    font-family: sans-serif;
+    font-size: 26px;
+    color: white;
+    padding: 13px 0px;
+}
+
+span.dd {
+    font-family: cursive;
+    color: yellow;
+    text-shadow: 0 0 2px black;
+}
+section.maincontent {
+    background: #f1f1f1;
+    align-items: center;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+}
+
+.st {
+    width: 45%;
+}
+
+.nd {
+    width: 45%;
+}
+
+span.ttl {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.barr {
+    height: 3px;
+    border-radius: 20px;
+    width: 89px;
+    background: #27c527;
+    margin-top:  8px;
+    margin-bottom: 22px;
+}
+i.fa.fa-telegram {
+    font-size: 29px;
+    color: #ffffff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.flexs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: white;
+    top: 257px;
+}
+
+section.topup {background: white;}
+
+
+.pricefutur {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.pricefutur i {
+    color: #27c527;
+    font-size: 78px;
+}
+
+span.ttlet {font-family: cursive;}
+
+span.ttletd {
+    font-size: 42px;
+    font-family: system-ui;
+    font-weight: 700;
+    color: #27c527;
+}
+
+.lasttime {
+    border-radius: 3px;
+    background: #e8e8e8;
+    width: 325px;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 13px;
+}
+
+
+.lasttime span.material-icons {
+    color: #989898;
+    font-size: 30px;
+    margin: 0px 6px;
+}
+
+
+span.tt {
+    font-weight: 600;
+    color: black;
+}
+
+span.dsdf {
+    color: #5a5a5a;
+}
+
+ul.lisss {
+    list-style: none;
+}
+
+li.lss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li.lss li {
+    color: green;
+}
+
+li.lss i {
+    color: #27c527;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px;
+    margin-right: 15px;
+}
+
+.cost {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui;
+}
+
+span.ss {
+    color: #232323;
+    font-weight: 500;
+}
+
+span.ds {
+    font-size: 14px;
+    color: #909090;
+}
+
+.para {
+    margin-top: 36px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #a2a2a2;
+    text-align: inherit;
+}
+
+span.tkdl {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.borderr {
+    margin-top: 22px;
+    border: 3px solid #27c527;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.borderr i {
+    color: #27c527;
+    margin: 0px 15px;
+}
+
+span.disit {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+span.dde {
+    color: #a5a5a5;
+}
+
+.jolsap {
+    color: #9e9e9e;
+    text-transform: capitalize;
+}
+
+.information {
+    margin: 25px 0px;
+}
+
+span.tlek {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.inputt {
+    margin-top: 15px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+span.nameeinp {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+
+input.nameees {
+    padding: 11px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    outline: none;
+}
+
+.dater {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expiredate {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+
+span.exxsd {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+input.daterr {
+    padding: 10px;
+    height: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.amountt {
+    margin: 21px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contter {
+    display: flex;
+    flex-direction: column;
+}
+
+span.bollde {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+span.crus {
+    font-size: 15px;
+    color: #757575;
+}
+
+.disiteddd {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    outline: none;
+    height: 1px;
+    background: #dadada;
+    margin-top: 27px;
+    margin-bottom: 21px;
+}
+
+.checkconfirm {
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"] {
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+span.aggre {
+    font-family: system-ui;
+    line-height: 19px;
+    color: #5d5d5d;
+}
+
+button.confirmPayment {
+    border: none;
+    font-size: 19px;
+    padding: 11px 0px;
+    background: #27c527;
+    border-radius: 7px;
+    transition: all .3s;
+    color: white;
+    margin-top: 36px;
+    font-weight: 700;
+    width: 100%;
+}
+.centter {width: 80%;padding: 31px;background: white;border-radius: 25px;position: absolute;top: 258px;}
+
+.listofpri {
+    margin: 53px 0px;
+}
+
+button.confirmPayment:hover {
+    background: white;
+    border: 2px solid #27c527;
+    color: black;
+    
+}
